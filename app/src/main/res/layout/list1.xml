@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+    >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1号楼宿舍机器详情"
+                android:textSize="24dp"
+                android:gravity="center"
+                android:textColor="#000000"/>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/map1"
+            android:onClick="click"
+            android:layout_width="154dp"
+            android:layout_height="107dp"
+            android:background="@drawable/washingmachine"
+            android:layout_marginRight="20dp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="165dp"
+            android:layout_height="114dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="167dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="洗衣机1"
+                android:textSize="20sp"
+                android:textColor="#000000"
+
+                />
+
+
+
+
+
+
+            <TextView
+                android:layout_width="167dp"
+                android:layout_height="20dp"
+                android:text="  请同学们管理好随身衣物"
+                android:textColor="#000000" />
+
+
+            <TextView
+                android:id="@+id/state1"
+                android:layout_gravity="center"
+                android:layout_width="70dp"
+                android:layout_height="25dp"
+                android:textSize="20sp"
+                android:text="空闲中"
+                android:textColor="#F8444A"
+                android:textStyle="bold"
+                />
+
+
+
+            <LinearLayout
+                android:layout_width="159dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/appoint1"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="预约"
+                    android:background="@drawable/button_style"
+                    />
+
+                <Button
+                    android:id="@+id/use1"
+                    android:layout_width="77dp"
+                    android:layout_height="wrap_content"
+                    android:text="即洗"
+                    android:onClick="click"
+                    android:background="@drawable/button_style"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            />
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/map2"
+            android:onClick="click"
+            android:layout_width="154dp"
+            android:layout_height="107dp"
+            android:background="@drawable/washingmachine"
+            android:layout_marginRight="20dp"/>
+
+        <LinearLayout
+            android:layout_width="165dp"
+            android:layout_height="114dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="167dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="洗衣机2"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                />
+
+
+            <TextView
+                android:layout_width="167dp"
+                android:layout_height="20dp"
+                android:text="  请同学们管理好随身衣物"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:id="@+id/state2"
+                android:layout_gravity="center"
+                android:layout_width="70dp"
+                android:layout_height="25dp"
+                android:textSize="20sp"
+                android:text="空闲中"
+                android:textColor="#F8444A"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="159dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/appoint2"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="预约"
+                    android:background="@drawable/button_style"
+                    />
+
+                <Button
+                    android:id="@+id/use2"
+                    android:layout_width="77dp"
+                    android:layout_height="wrap_content"
+                    android:text="即洗"
+                    android:onClick="click"
+                    android:background="@drawable/button_style"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+             />
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/map3"
+            android:onClick="click"
+            android:layout_width="154dp"
+            android:layout_height="107dp"
+            android:background="@drawable/washingmachine"
+            android:layout_marginRight="20dp"/>
+
+        <LinearLayout
+            android:layout_width="165dp"
+            android:layout_height="114dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="167dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="洗衣机3"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:layout_width="167dp"
+                android:layout_height="20dp"
+                android:text="  请同学们管理好随身衣物"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:id="@+id/state3"
+                android:layout_gravity="center"
+                android:layout_width="70dp"
+                android:layout_height="25dp"
+                android:textSize="20sp"
+                android:text="空闲中"
+                android:textColor="#F8444A"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="159dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/appoint3"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_style"
+                    android:text="预约" />
+
+                <Button
+                    android:id="@+id/use3"
+                    android:layout_width="77dp"
+                    android:layout_height="wrap_content"
+                    android:text="即洗"
+                    android:onClick="click"
+                    android:background="@drawable/button_style"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/backl1"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="返回" />
+
+
+    </LinearLayout>

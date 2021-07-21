@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#FFFFFF"></View>
+
+    <com.youth.banner.Banner
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="公告栏"
+        android:textSize="24sp"/>
+//公告
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#A2BBBD">
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#000000"></View>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/announce1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="公告!!!请同学们保管好自身的随身物品...."
+        android:textColor="#F85656"
+        android:textSize="18sp"
+
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#000000"></View>
+
+
+    <TextView
+        android:id="@+id/announce2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="公告2由于近来1号宿舍楼的洗衣房的部.."
+        android:textColor="#000000"
+        android:textSize="18sp"
+
+
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#000000"></View>
+
+    <TextView
+        android:id="@+id/announce3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="公告3同学们若有任何使用问题，可以联.."
+        android:textColor="#000000"
+        android:textSize="18sp"
+
+      />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#000000"></View>
+
+    <TextView
+        android:id="@+id/announce4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="公告4请同学们在预定的时间内及时使用.."
+        android:clickable="true"
+        android:textColor="#000000"
+        android:textSize="18sp"
+
+       />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#000000"></View>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"></View>
+
+
+    //空白区域
+
+    <LinearLayout
+        android:layout_width="600dp"
+        android:layout_height="116dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/map1"
+            android:onClick="click"
+            android:layout_width="154dp"
+            android:layout_height="107dp"
+            android:background="@drawable/washingmachine"
+
+            />
+
+        <LinearLayout
+            android:layout_width="256dp"
+            android:layout_height="103dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="253sp"
+                android:layout_height="30sp"
+
+                android:gravity="center"
+                android:text="1号宿舍洗衣房"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="87dp"
+                android:orientation="horizontal">
+
+
+                <Button
+
+                    android:id="@+id/dorm1"
+                    android:layout_width="match_parent"
+                    android:layout_height="66sp"
+                    android:background="@drawable/button_style"
+                    android:text="进入查看详情"
+                    ></Button>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    //洗衣房1
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        />
+
+    //空白区域
+
+    <LinearLayout
+        android:layout_width="600dp"
+        android:layout_height="116dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/map2"
+            android:onClick="click"
+            android:layout_width="154dp"
+            android:layout_height="107dp"
+            android:background="@drawable/washingmachine" />
+
+        <LinearLayout
+            android:layout_width="256dp"
+            android:layout_height="103dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="253sp"
+                android:layout_height="30sp"
+                android:gravity="center"
+                android:text="2号宿舍洗衣房"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="87dp"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/dorm2"
+                    android:layout_width="match_parent"
+                    android:layout_height="66sp"
+                    android:background="@drawable/button_style"
+                    android:text="进入查看详情" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    //洗衣房2
+
+
+
+
+</LinearLayout>
+
